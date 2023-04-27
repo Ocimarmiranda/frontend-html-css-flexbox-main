@@ -1,0 +1,44 @@
+/*Schrijf hier jouw CSS*/
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+html{
+    min-height: 100vh;
+    height: 100vh;
+}
+.header{
+
+    height: 15vh;
+
+
+}
+
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+
+
+
+}
+.article{
+    height: 100%;
+    flex: 15;
+
+}
+.nave{
+    height: 100%;
+    flex: 4;
+
+}
+.aside{
+    height:100%;
+   flex: 4;
+}
+.footer{
+    height: 15vh;
+}
